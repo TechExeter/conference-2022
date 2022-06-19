@@ -1,0 +1,10 @@
+# blog page sections
+
+- name: Apply to speak
+  href: '/speak.html'
+
+- name: sponsorship
+  href: '/become-a-sponsor.html'
+
+- name: about us
+  href: '/about-us.html'

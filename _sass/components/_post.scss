@@ -1,0 +1,358 @@
+///
+/// Future Imperfect by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Post */
+
+	.post.stats {
+		padding:1px;
+		div.columns {
+			@include vendor('flex-wrap', 'nowrap');
+			@include vendor('justify-content', 'space-evenly');
+			@include vendor('align-items', 'center');
+			
+			section { 
+				@include vendor('flex-basis', '33%');
+				font-size:2em;
+				text-transform: uppercase;
+				padding:1em 0.5em;
+				span {
+					font-size: 2em;
+					line-height: 1;
+					font-weight: 600;
+					background-color:  _palette(button-fg);
+					padding: 0.5em;
+					display:block;
+					width: 2em;
+					margin: auto;
+				}
+			}
+		}
+	}
+	
+	.post {
+		@include padding(_size(section-spacing), _size(section-spacing));
+		background: _palette(bg);
+		border: solid 1px _palette(border);
+		margin: 0 0 _size(section-spacing) 0;
+		position: relative;
+
+		&.highlighted {
+			border-color:  _palette(accent);
+			border-width: 1em;
+		}
+		h1 { 
+			font-size: 3em;
+		}
+		&.topics { 
+			h2 { 
+				font-size: 2em;
+				margin: 0;
+				text-transform: none;
+				letter-spacing: 0;
+			}
+		}
+
+		> header {
+			@include vendor('display', 'flex');
+			border-bottom: solid 1px _palette(border);
+			left: (_size(section-spacing) * -1);
+			margin: (_size(section-spacing) * -1) 0 _size(section-spacing) 0;
+			position: relative;
+			width: calc(100% + #{_size(section-spacing) * 2});
+
+			.title {
+				@include vendor('flex-grow', '1');
+				-ms-flex: 1;
+				padding: (_size(section-spacing) * 0.75) _size(section-spacing) (_size(section-spacing) * 0.75) _size(section-spacing);
+
+				h2 {
+					font-weight: _font(weight-heading-bold);
+					font-size: 2.0em;
+				}
+
+				> :last-child {
+					margin-bottom: 0;
+				}
+			}
+
+			.meta {
+				@include padding(_size(section-spacing) * 1.25, _size(section-spacing));
+				border-left: solid 1px _palette(border);
+				min-width: 17em;
+				text-align: right;
+				width: 17em;
+
+				> * {
+					margin: 0 0 (_size(element-margin) * 0.5) 0;
+				}
+
+				> :last-child {
+					margin-bottom: 0;
+				}
+
+				.published {
+					color: _palette(fg-bold);
+					display: block;
+					font-family: _font(family-heading);
+					font-size: 0.7em;
+					font-weight: _font(weight-heading-bold);
+					letter-spacing: _font(kerning-heading);
+					margin-top: 0.5em;
+					text-transform: uppercase;
+					white-space: nowrap;
+				}
+			}
+		}
+		img {
+			width:100%;
+			object-fit:cover;
+		}
+		> a.image.featured {
+			overflow: hidden;
+
+			img {
+				@include vendor('transition', 'transform #{_duration(transition)} ease-out');
+				position:relative;
+			}
+
+			&:after {
+				background-image: url("/assets/images/overlay.png");
+				content: '';
+				display: block;
+				height: 100%;
+				left: 0;
+				top: 0;
+				position: absolute;
+				width: 100%;
+				transition: opacity .5s ease-out;
+			}
+
+			&:hover {
+				img {
+					@include vendor('transform', 'scale(1.05)');
+				}
+				&:after {
+					opacity: 0;
+				}
+			}
+		}
+
+		div.columns {
+			@include vendor('display', 'flex');
+			@include vendor('flex-grow', '1');
+			@include vendor('flex-direction', 'row');
+			@include vendor('flex-wrap', 'wrap');
+			@include vendor('align-items', 'flex-start');
+			&.sponsors {
+				@include vendor('align-items', 'center');
+				h4 { 
+					min-height: 2em;
+				}
+				a { border-bottom: none; }
+			}
+			&.img {
+				img {
+					@include vendor('flex-basis', '50%');
+				}
+				margin-bottom:1em;
+			}
+			section {
+				@include vendor('flex-basis', '50%');
+				text-align:center;
+				padding:1em 2em;
+				svg { 
+					font-size: 4em;
+					margin-bottom:0.5em;
+					color: _palette(accent);
+				}
+			}
+		}
+
+		> footer {
+			@include vendor('display', 'flex');
+			@include vendor('align-items', 'center');
+
+			.actions {
+				@include vendor('flex-grow', '1');
+			}
+
+			.stats {
+				cursor: default;
+				list-style: none;
+				padding: 0;
+
+				li {
+					border-left: solid 1px _palette(border);
+					display: inline-block;
+					font-family: _font(family-heading);
+					font-size: 0.6em;
+					font-weight: _font(weight-heading);
+					letter-spacing: _font(kerning-heading);
+					line-height: 1;
+					margin: 0 0 0 2em;
+					padding: 0 0 0 2em;
+					text-transform: uppercase;
+
+					&:first-child {
+						border-left: 0;
+						margin-left: 0;
+						padding-left: 0;
+					}
+
+					.icon {
+						border-bottom: 0;
+
+						&:before {
+							color: _palette(border);
+							margin-right: 0.75em;
+						}
+					}
+				}
+			}
+		}
+
+		@include breakpoint(medium) {
+			border-left: 0;
+			border-right: 0;
+			left: _size(section-spacing) * -1;
+			width: calc(100% + (#{_size(section-spacing)} * 2));
+
+			> header {
+				@include vendor('flex-direction', 'column');
+				@include padding(_size(section-spacing) * 1.25, _size(section-spacing), (0, 0, -0.5em, 0));
+				border-left: 0;
+
+				.title {
+					-ms-flex: 0 1 auto;
+					margin: 0 0 _size(element-margin) 0;
+					padding: 0;
+					text-align: center;
+				}
+
+				.meta {
+					@include vendor('align-items', 'center');
+					@include vendor('display', 'flex');
+					@include vendor('justify-content', 'center');
+					border-left: 0;
+					margin: 0 0 _size(element-margin) 0;
+					padding-top: 0;
+					padding: 0;
+					text-align: left;
+					width: 100%;
+
+					> * {
+						border-left: solid 1px _palette(border);
+						margin-left: 2em;
+						padding-left: 2em;
+					}
+
+					> :first-child {
+						border-left: 0;
+						margin-left: 0;
+						padding-left: 0;
+					}
+
+					.published {
+						margin-bottom: 0;
+						margin-top: 0;
+					}
+
+					.author {
+						@include vendor('flex-direction', 'row-reverse');
+						margin-bottom: 0;
+
+						.name {
+							margin: 0 0 0 1.5em;
+						}
+
+						img {
+							width: 3.5em;
+						}
+					}
+				}
+			}
+		}
+
+		@include breakpoint(small) {
+			&.stats {
+				div.columns {
+					section { 
+						font-size:1.5em;
+					}
+				}
+			}
+			@include padding(_size(section-spacing-small), _size(section-spacing-small));
+			left: _size(section-spacing-small) * -1;
+			margin: 0 0 _size(element-margin) 0;
+			width: calc(100% + (#{_size(section-spacing-small)} * 2));
+
+			> header {
+				@include padding(_size(section-spacing-small) * 2, _size(section-spacing-small), (0, 0, -0.5em, 0));
+				left: (_size(section-spacing-small) * -1);
+				margin: (_size(section-spacing-small) * -1) 0 _size(section-spacing-small) 0;
+				width: calc(100% + #{_size(section-spacing-small) * 2});
+
+				.title {
+					h2 {
+						font-size: 1.1em;
+					}
+				}
+			}
+		}
+
+		@include breakpoint(xsmall) {
+			div.columns {
+				section { 
+					@include vendor('flex-basis', '100%');
+				}
+			}
+			&.stats {
+				div.columns {
+					section { 
+						font-size:1em;
+					}
+				}
+			}
+			> header {
+				.meta {
+					@include vendor('align-items', 'center');
+					@include vendor('flex-direction', 'column');
+
+					> * {
+						border-left: 0;
+						margin: (_size(element-margin) * 0.5) 0 0 0;
+						padding-left: 0;
+					}
+
+					.author {
+						.name {
+							display: none;
+						}
+					}
+				}
+			}
+
+			> .image.featured {
+				margin-left: _size(section-spacing-small) * -1;
+				margin-top: calc(#{_size(section-spacing-small) * -1} - 1px);
+				width: calc(100% + #{_size(section-spacing-small) * 2});
+			}
+
+			> footer {
+				@include vendor('align-items', 'stretch');
+				@include vendor('flex-direction', 'column-reverse');
+
+				.stats {
+					text-align: center;
+
+					li {
+						margin: 0 0 0 1.25em;
+						padding: 0 0 0 1.25em;
+					}
+				}
+			}
+		}
+	}

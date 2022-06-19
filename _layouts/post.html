@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="post">
+  <header> 
+    <div class="title">
+      <h2>{{ page.title | escape }}</h2>
+    </div>
+    <div class="meta">
+      <time class="published" datetime="{{ page.date }}">{{ page.date | date: "%d %b %Y %R" }}</time>
+    </div>
+  </header>
+  {{ content }}
+  
+  <footer>
+    <ul class="stats">
+      <li><a class="icon" href="{{ site.url }}"><i class="fas fa-fw fa-folder"></i> Main site</a></li>
+    </ul>
+  </footer>
+  
+</div>
+</article>
+<ul class="actions pagination">
+  {% if page.previous.url %}
+    <li><a href="{{page.previous.url}}" class="button big previous icon"><i class="fw fas fa-chevron-left"></i> Prev</a></li>
+  {% endif %}
+  {% if page.next.url %}
+    <li><a href="{{page.next.url}}" class="button big next icon">Next <i class="fw fas fa-chevron-right"></i></a></li>
+  {% endif %}
+</ul>
