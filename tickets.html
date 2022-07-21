@@ -1,0 +1,62 @@
+---
+layout: default
+title: Tickets
+---
+{% include header.html %}
+
+<!-- Main -->
+		<div class="row 150% normal-page">
+			<div class="4u 12u$(medium)">
+				<!-- Sidebar -->
+				<section id="sidebar" class="sponsors">
+					{% include sponsors-sidebar.html %}
+				</section>
+			</div>
+			<div class="8u$ 12u$(medium) important(medium)">
+
+				<article class="post ">
+					<header> 
+						<div class="title">
+							<h1><i class="fas fa-ticket-alt" aria-hidden="true"></i> Tickets</h1>
+						</div>
+					</header>	
+					<img src="/assets/images/Tech-Exeter-2018-143.jpg" alt="high up shot of delegates mingling outside with sponsors">
+
+					<!-- Noscript content for added SEO -->
+					<noscript><a href="https://techexeterconf2022.eventbrite.co.uk" rel="noopener noreferrer" target="_blank">Buy Tickets on Eventbrite</a></noscript>
+						<!-- You can customise this button any way you like -->
+						<button id="eventbrite-widget-modal-trigger-386978231307" type="button">Buy Tickets Now</button>
+						
+						<script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
+						
+						<script type="text/javascript">
+							var exampleCallback = function() {
+								console.log('Order complete!');
+							};
+						
+							window.EBWidgets.createWidget({
+								widgetType: 'checkout',
+								eventId: '386978231307',
+								modal: true,
+								modalTriggerElementId: 'eventbrite-widget-modal-trigger-386978231307',
+								onOrderComplete: exampleCallback
+							});
+						</script>
+					
+					<p>Having trouble booking? <a href="https://www.eventbrite.co.uk/e/techexeter-conference-2022-tickets-386978231307" target="_blank">Try going direct to Eventbrite here</a></p>
+					<hr/>
+
+					<h3>What's included in the ticket?</h3>
+					<ul>
+						<li>Delegate welcome pack filled with goodies</li>
+						<li>Teas, coffees, snacks throughout the day</li>
+						<li>Cooked lunch (veggie/vegan/gf options available)</li>
+						<li>Access to our keynote, all tracks and workshops</li>
+					</ul>
+					<hr/>
+					<p>Still not sure? Why not <a href="https://techexeter.uk/2020/conference-2020-feedback/" target="_blank">check out our testimonials!</a></p>
+					
+
+				</article>
+
+			</div>

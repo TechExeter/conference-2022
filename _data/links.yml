@@ -1,7 +1,7 @@
 # blog page sections
 
-- name: Apply to speak
-  href: '/speak.html'
+- name: 🎫 Tickets
+  href: '/tickets.html'
 
 - name: sponsorship
   href: '/become-a-sponsor.html'
