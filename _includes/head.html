@@ -119,7 +119,7 @@
     }
     </script>
   {% endif %}
-  <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{"/assets/images/preview_index.gif" | prepend: site.baseurl}}{% endif %}">
+  <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{"/assets/images/preview_index.jpg" | prepend: site.baseurl}}{% endif %}">
   {% if page.session-title %}
   <title>{{ page.session-title | append: " (" | append:page.type | append: ") " | append: title_separator | append: " " | append: page.name  | append: " " | append: title_separator  | append: " " | append: site.title }}</title>
   {% else %}

@@ -11,13 +11,14 @@
 		div.columns {
 			@include vendor('flex-wrap', 'nowrap');
 			@include vendor('justify-content', 'space-evenly');
-			@include vendor('align-items', 'center');
+			@include vendor('align-items', 'top');
 			
 			section { 
 				@include vendor('flex-basis', '33%');
 				font-size:2em;
 				text-transform: uppercase;
 				padding:1em 0.5em;
+				line-height: 1em;
 				span {
 					font-size: 2em;
 					line-height: 1;
@@ -25,8 +26,12 @@
 					background-color:  _palette(button-fg);
 					padding: 0.5em;
 					display:block;
-					width: 2em;
 					margin: auto;
+					margin-bottom:0.5em;
+					sup { 
+						font-weight: 300;
+						font-size: 0.6em;
+					}
 				}
 			}
 		}

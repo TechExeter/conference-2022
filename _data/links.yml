@@ -1,6 +1,6 @@
 # blog page sections
 
-- name: 🎫 Tickets
+- name: <i class="fas fa-ticket-alt" aria-hidden="true"></i>  Tickets
   href: '/tickets.html'
 
 - name: sponsorship
