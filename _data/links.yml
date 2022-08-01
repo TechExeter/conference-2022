@@ -3,6 +3,9 @@
 - name: <i class="fas fa-ticket-alt" aria-hidden="true"></i>  Tickets
   href: '/tickets.html'
 
+- name: speakers
+  href: '/speakers.html'
+
 - name: sponsorship
   href: '/become-a-sponsor.html'
 

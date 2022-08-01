@@ -3,7 +3,7 @@
 {% assign bronzeSponsors = site.sponsors | where: 'type', 'bronze' %}
 
 {% if goldSponsors.size > 0 %}
-<h3>Gold Sponsors</h3>
+<h3>Main Stage Sponsors</h3>
 {% for sponsor in goldSponsors %}
 <section class="sponsors gold">
     <a href="{{ sponsor.externalUrl }}" target="_blank"><span class="image fit"><img src="/assets/images/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }} logo"></span></a>
@@ -13,7 +13,7 @@
 {% endif %}
 
 {% if silverSponsors.size > 0 %}
-<h3>Silver Sponsors</h3>
+<h3>Track Sponsors</h3>
 {% for sponsor in silverSponsors %}
 <section class="sponsors silver">
     <a href="{{ sponsor.externalUrl }}" target="_blank"><span class="image fit"><img src="/assets/images/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }} logo"></span></a>
@@ -23,7 +23,7 @@
 {% endif %}
 
 {% if bronzeSponsors.size > 0 %}
-<h3>Bronze Sponsors</h3>
+<h3>Sponsors</h3>
 {% for sponsor in bronzeSponsors %}
 <section class="sponsors bronze">
     <a href="{{ sponsor.externalUrl }}" target="_blank"><span class="image fit"><img src="/assets/images/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }} logo"></span></a>
@@ -33,16 +33,15 @@
 {% endif %}
 
 <section class="sponsors">
-    <h3>Sponsors</h3>
-    <p>Bronze, Silver and Gold sponsors are currently available</p>
     
-    <h3>Supporters and Volunteers</h3>
-    <p>We couldn't put this event on without you <span style="color:#cc3333">❤</span></p>
+    <h3>Supporters and Volunteers <span style="color:#cc3333">❤</span></h3>
+    <p>We couldn't put this event on without you!</p>
     <ul>
         <li>Kris Sum</li>
         <li>Philippa Carnelley</li>
         <li>Sarah Marks</li>
         <li>Colin Dart</li>
         <li>Chris Wilson</li>
+        <li>Martin Howitt</li>
     </ul>
 </section>

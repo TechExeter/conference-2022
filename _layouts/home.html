@@ -3,10 +3,13 @@ layout: default
 title: Home
 page_teaser_image: https://conference.techexeter.uk/images/preview_index.jpg
 ---
+{% assign goldSponsors = site.sponsors | where: 'type', 'gold' %}
+{% assign silverSponsors = site.sponsors | where: 'type', 'silver' %}
+{% assign bronzeSponsors = site.sponsors | where: 'type', 'bronze' %}
 <article class="post highlighted stats">
   <div class="columns">
     <section>
-      <div><span>16</span> speakers</div>
+      <div><a href="speakers.html"><span>16</span> speakers</a></div>
     </section>
     <section>
       <div><span>2</span> tracks</div>
@@ -54,9 +57,41 @@ page_teaser_image: https://conference.techexeter.uk/images/preview_index.jpg
 
 </article>
 
-
 <article class="post highlighted">
-  <p>Find out more about sponsorship and how you can support our local tech & digial community on our <a href="/become-a-sponsor.html">sponsorship page</a>.</p>
+  <header> 
+    <div class="title">
+      <h2><i class="fas fa-thumbs-up" aria-hidden="true"></i> Supported by</h2>
+    </div>
+  </header>
+  <div class="columns sponsors">
+        
+    {% for sponsor in goldSponsors %}
+    <section class="sponsors gold">
+        <a href="{{ sponsor.externalUrl }}" target="_blank">
+          <img src="/assets/images/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.text }}">
+        </a>
+        <h4>{{ sponsor.name }}</h4>
+    </section>
+    {% endfor %}
+    {% for sponsor in silverSponsors %}
+    <section class="sponsors silver">
+        <a href="{{ sponsor.externalUrl }}" target="_blank">
+          <img src="/assets/images/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.text }}">
+        </a>
+        <h4>{{ sponsor.name }}</h4>
+    </section>
+    {% endfor %}
+    {% for sponsor in bronzeSponsors %}
+    <section class="sponsors bronze">
+        <a href="{{ sponsor.externalUrl }}" target="_blank">
+          <img src="/assets/images/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.text }}">
+        </a>
+        <h4>{{ sponsor.name }}</h4>
+    </section>
+    {% endfor %}
+    
+  </div>
+  <p>Find out more about sponsorship and how you can support our local tech  & digial community on our <a href="/become-a-sponsor.html">sponsorship page</a>.</p>
 </article>
 
 <article class="post">

@@ -143,7 +143,12 @@ nav a:focus {
             max-width: 80%;
             background: #fff;
             margin-bottom: 1em;
-        }    
+        }
+        div.company img { 
+            border: none;
+            border-radius: initial;
+            background: none;
+        }
         h1 {
             display:inline-block;
             margin-top:0.5em;
