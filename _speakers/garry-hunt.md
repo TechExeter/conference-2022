@@ -5,7 +5,7 @@ pronoun: He/Him
 title: Event Manager
 company: Agile on the Beach / Software Cornwall
 companyLogo: /assets/images/speakers/aotb.png
-session-title: Community - The "C" Word That Won't Offend Anybody
+session-title: Putting community at the heart of everything you do
 session-length: 45 mins
 type: talk
 # talk, workshop, other
