@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 name: Dima Karamshuk
 pronoun: He/Him
 title: Senior research scientist
@@ -10,7 +10,7 @@ type: talk
 # talk, workshop, other
 
 # image: /assets/images/speakers/promo/promo-not-available-yet.png
-# headshot: /assets/images/speakers/no-picture-yet.jpg
+headshot: /assets/images/speakers/dima-karamshuk.jpg
 # track: "tba"
 # timeslot: "tba"
 

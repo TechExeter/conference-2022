@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 name: Andrew Cox
 pronoun: He/Him
 title: Head of Design and UX
@@ -10,7 +10,7 @@ type: talk
 # talk, workshop, other
 
 # image: /assets/images/speakers/promo/promo-not-available-yet.png
-# headshot: /assets/images/speakers/no-picture-yet.jpg
+headshot: /assets/images/speakers/andrew-cox.jpg
 # track: "tba"
 # timeslot: "tba"
 
