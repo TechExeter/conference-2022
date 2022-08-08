@@ -1,16 +1,17 @@
 ---
-published: false
+published: true
 name: Jo Murray
 pronoun: She/Her
 title: Founder and Managing Director
 company: My Coast Limited
+companyLogo: /assets/images/speakers/mycoast.png
 session-title: Using tech to drive the future of our communities
-session-length: 45 mins
+session-length: 20 mins
 type: talk
 # talk, workshop, other
 
 # image: /assets/images/speakers/promo/promo-not-available-yet.png
-# headshot: /assets/images/speakers/no-picture-yet.jpg
+headshot: /assets/images/speakers/jo-murray.jpg
 # track: "tba"
 # timeslot: "tba"
 
@@ -29,7 +30,7 @@ takeaways:
 # TALK DESCRIPTION IS BELOW, FOLLOWED BY BIO
 ---
 
-I would be delighted to speak about my journey with the My Coast app and how I have learnt all about the power of new technology and space when it comes to innovative projects. 
+I would be speaking about my journey with the My Coast app and how I have learnt all about the power of new technology and space when it comes to innovative projects. 
 
 We are developing a platform that will unite our communities with local Councils, utility companies, local businesses and our emergency services. The aim of the project is to connect the general public (both residents and visitors) and provide them with live safety advice and warnings, information on local services and facilities and give them a wealth of options of amenities, experiences and tourist attractions - all in one place. 
 
