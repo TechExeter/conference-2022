@@ -12,9 +12,10 @@ layout: default
 
     <img src="{{ page.headshot }}" alt="Headshot of {{ page.name }}">
     <h1 id="name" class="page__title" itemprop="headline">
-      {{ page.name | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+      {{ page.name | markdownify | remove: "<p>" | remove: "</p>" }}
+    </h1>
     <div class="speaker-title">
-      <strong>{{ page.title }}</strong> {% if page.company %} {{ page.company }} {% endif %}
+      <strong>{{ page.title }}</strong>{% if page.company %} {{ page.company }} {% endif %}
     </div>
     {% if page.companyLogo %}
     <div class="company">
@@ -98,6 +99,7 @@ layout: default
             </tr>
             <tr>
               <td>
+                <!--
                 {% if page.level == 1 %}
                 Entry-level / open to all
                 {% endif %}
@@ -107,6 +109,7 @@ layout: default
                 {% if page.level == 3 %}
                 Aimed towards advanced practitioners
                 {% endif %}
+                -->
               </td>
               
               <td>
