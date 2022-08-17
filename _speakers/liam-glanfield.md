@@ -11,6 +11,7 @@ type: workshop
 # talk, workshop, other
 
 # image: /assets/images/speakers/promo/promo-not-available-yet.png
+image: /assets/images/speakers/promo-liam-glanfield.png
 headshot: /assets/images/speakers/liam-glanfield.jpg
 # track: "tba"
 # timeslot: "tba"

@@ -10,7 +10,7 @@ session-length: 45 mins
 type: talk
 # talk, workshop, other
 
-# image: /assets/images/speakers/promo/promo-not-available-yet.png
+image: /assets/images/speakers/promo-james-jillians.png
 headshot: /assets/images/speakers/james-jillians.jpg
 # track: "tba"
 # timeslot: "tba"

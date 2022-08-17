@@ -198,6 +198,7 @@ nav a:focus {
 }
 
 .sponsors.gold { 
+    flex-basis: 100% !important;
     section {
         flex-basis:50%;
         padding:5px;
@@ -210,18 +211,20 @@ section.gold {
 }
 
 .sponsors.silver { 
+    flex-basis:50% !important;
     section {
-        flex-basis:33%;
+        flex-basis:50%;
         flex-shrink: 0;
         padding:5px;
     }
 }
 section.silver {
     flex-grow: 2;
-    flex-basis:33%;
+    flex-basis:50%;
     padding:5px;
 }
 .sponsors.bronze { 
+    flex-basis:25% !important;
     section {
         flex-basis:25%;
         flex-shrink: 0;

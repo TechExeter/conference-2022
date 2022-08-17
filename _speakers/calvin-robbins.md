@@ -9,7 +9,7 @@ session-length: 20 mins
 type: talk
 # talk, workshop, other
 
-# image: /assets/images/speakers/promo/promo-not-available-yet.png
+image: /assets/images/speakers/promo-calvin-robbins.png
 headshot: /assets/images/speakers/calvin-robbins.jpg
 # track: "tba"
 # timeslot: "tba"

@@ -10,6 +10,7 @@ type: keynote
 # talk, workshop, other
 
 # image: /assets/images/speakers/promo/promo-not-available-yet.png
+image: /assets/images/speakers/promo-david-ferguson.png
 headshot: /assets/images/speakers/david-ferguson.jpg
 # track: "tba"
 # timeslot: "tba"

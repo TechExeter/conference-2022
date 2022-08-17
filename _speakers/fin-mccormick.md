@@ -11,6 +11,7 @@ type: talk
 # talk, workshop, other
 
 # image: /assets/images/speakers/promo/promo-not-available-yet.png
+image: /assets/images/speakers/promo-fin-mccormick.png
 headshot: /assets/images/speakers/fin-mccormick.jpg
 # track: "tba"
 # timeslot: "tba"

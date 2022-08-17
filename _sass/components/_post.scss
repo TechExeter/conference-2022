@@ -164,12 +164,6 @@
 				}
 				margin-bottom:1em;
 			}
-			.sponsors.silver { 
-			flex-basis: 33%;
-			}
-			.sponsors.bronze { 
-			flex-basis: 25%;
-			}
 			section {
 				@include vendor('flex-basis', '50%');
 				text-align:center;

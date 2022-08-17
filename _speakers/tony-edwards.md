@@ -11,6 +11,7 @@ type: talk
 # talk, workshop, other
 
 # image: /assets/images/speakers/promo/promo-not-available-yet.png
+image: /assets/images/speakers/promo-tony-edwards.png
 headshot: /assets/images/speakers/tony-edwards.jpg
 # track: "tba"
 # timeslot: "tba"

@@ -10,6 +10,7 @@ type: talk
 # talk, workshop, other
 
 # image: /assets/images/speakers/promo/promo-not-available-yet.png
+image: /assets/images/speakers/promo-dima-karamshuk.png
 headshot: /assets/images/speakers/dima-karamshuk.jpg
 # track: "tba"
 # timeslot: "tba"
