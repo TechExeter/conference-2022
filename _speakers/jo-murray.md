@@ -10,7 +10,7 @@ session-length: 20 mins
 type: talk
 # talk, workshop, other
 
-# image: /assets/images/speakers/promo/promo-not-available-yet.png
+image: /assets/images/speakers/promo-jo-murray.png
 headshot: /assets/images/speakers/jo-murray.jpg
 # track: "tba"
 # timeslot: "tba"
