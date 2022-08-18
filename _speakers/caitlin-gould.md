@@ -24,14 +24,14 @@ twitter:
  - caitlinkrum 
 linkedin: caitlinkrumdieck
 takeaways:
- - How communities can be powerful 
+ - How communities can be powerful
  - The importance of truly embracing the community, rather than exploiting it
  - Ways to build inclusion into everything from employment to workshops
 
 # TALK DESCRIPTION IS BELOW, FOLLOWED BY BIO
 ---
 
-As the world continues to fight for improved inclusion investors, brands, and advertising campaigns are also jumping on board. But are they getting it right? Communities that have been traditionally excluded can be huge sources of innovation inspiration and sources for much-needed disruption within established industries. However, there is a careful line between inclusion and exploitation. In this talk, I will look at the power communities can bring and examples of both the good and the bad of embarrassing these communities. I will end with tips on how organisations can look to embrace, empower, and include communities in their long-term success strategies.
+As the world continues to fight for improved inclusion investors, brands, and advertising campaigns are also jumping on board. But are they getting it right? Communities that have been traditionally excluded or underrepresented within tech can be huge sources of innovation and inspiration and can provide a catalyst for much-needed disruption within established industries. However, there is a careful line between inclusion and exploitation. In this talk, I will look at the power communities can bring and examples of both the good and the bad of engaging these communities across the tech sector. I will end with tips on how organisations can look to embrace, empower, and include communities in their long-term success strategies.
 
 {% include speakers-takeaways.html %}
 
