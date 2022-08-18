@@ -7,7 +7,6 @@ excerpt: Our speakers for the TechExeter / Digital Exeter annual conference on 1
 
 {% assign speakersSorted = site.speakers | sort:"timeslot" %}
 
-<div style="text-align:center;"><em>* Lineup is subject to change. Not all of our speakers have updated their submissions, so expect to see a a full lineup  here soon!</em></div>
 
 <article class="post highlighted speakers">
 
@@ -40,3 +39,4 @@ excerpt: Our speakers for the TechExeter / Digital Exeter annual conference on 1
   </div>
 </article>
 
+<div style="text-align:center;"><em>* Lineup is subject to change. </em></div>
