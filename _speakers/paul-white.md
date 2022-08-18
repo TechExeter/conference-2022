@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 name: Paul White
 pronoun: He/Him
 title: Tech4Good Social Solutions Innovator
@@ -9,8 +9,8 @@ session-length: 45 mins
 type: talk
 # talk, workshop, other
 
-# image: /assets/images/speakers/promo/promo-not-available-yet.png
-# headshot: /assets/images/speakers/no-picture-yet.jpg
+image: /assets/images/speakers/promo-paul-white.png
+headshot: /assets/images/speakers/paul-white.jpg
 # track: "tba"
 # timeslot: "tba"
 
@@ -30,25 +30,18 @@ takeaways:
 # TALK DESCRIPTION IS BELOW, FOLLOWED BY BIO
 ---
 
-[ PLEASE AMEND TO BE FOCUSED AROUND WHAT THE TALK WILL BE ABOUT ]
+We need to recognise that a meaningful and successful evolution of an integrated health and care service provision will be determined by how well it responds to any determinant affecting an individual’s wellbeing need i.e., state of education, employment, living circumstances, social inclusion, personal health practices, personal care, and support etc. 
 
-Research of 3rd sector activity has exposed the existing of strong benevolent and caring communities, and that there is much being done to improve the social, economic, and ecological sustainability of our living and working in Devon.
+Success is dependent on how well our services and systems integrate to better enable understanding of cause and effect, and not just in a way that enables the most appropriate response, but in a way that creates opportunity for early intervention, or better still prevention?
 
- * 6,000 registered not-for-profit organisations, 33% - 2,153 social enterprise businesses, 67% 4,271 charities / voluntary community organisation.
+It is without question that technology has a pivotal contribution to early intervention and prevention, we are already seeing great potential from the explosion of investment worldwide into wearables, Internet of Things (IOT) and mHealth. Research has also found there to be hundreds of thousands of health-related consumer apps, yet most have been downloaded fewer than 5,000 times!
 
- * 32,000+ employed by social enterprise, 42,000+ volunteering for charities / voluntary communities.
+Given that the data to be managed by these tech solutions, and any integrated health, care and support systems is the most personalised and important data about our lives. Do we need to be concerned that most of this investment is motivated by the exploitation of our data for shareholder profit? is this a bad thing? Even if you answer no to these questions, we surely must be concerned that the approaches tend to perpetuate the building of data silos, on the basis that data is power and wealth!
+If we are going to leverage the technology and in ways that can truly help us all, with our personal needs, then maybe we need a new ‘tech4good’ social enterprise approach to how this happens? One that is about partnership, sharing and cooperation, and built on basis of securing and maintaining openness in the way data is used, and thus trust with the user community.
 
- * Total annual economic activity of £1bn plus (48% being social enterprise business activity, 51% charity / voluntary services overall, nearly 6% of the total economic output for Devon (measured at £17bn).
+Building a non-silo’ d digital approach capable of service individual, family, and community wellbeing development, that is safe, secure, trustworthy and puts the needs of the user community above all else, is arguably the greatest modern-day challenge for our technologists to respond to. There is no greater motivation too in the fact that this personally affects us all, and the ones we love and care for.
 
-Critically however, lived experience of working with the sector confirms the greatest proportion of investment is prioritised to people services, ahead of digital investments. Whilst admirable and worthy it does however mean opportunities for technology aided efficiency and potential to do more with available resources are missed.
-
-The fact is that despite the enormity this sector, operating alongside a sizeable public sector, there remains a significant deficit in the servicing of wellbeing needs, that because of Covid, is growing with increasing concern across a number of determinants of societal health and wellbeing.
-
-For Devon the social and economic impact of this deficit easily exceeds £2bn of lost annual opportunity, this is an issue in every part of the UK, so nationally this becomes very significant.
-
-The only way this lost opportunity can be recovered is if we can create greater efficiency and more capacity across the service sectors, and in this regard, there is great potential, in fact an imperative for the 3rd sector to have better access to not just technology, but resources with the skills and capabilities to ensure maximum benefit can be leveraged.
-
-This is a call to action out to the to the tech community.
+This is a call to action going out to the to the tech community.
 
 {% include speakers-takeaways.html %}
 
