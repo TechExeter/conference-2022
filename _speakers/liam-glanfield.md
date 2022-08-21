@@ -38,7 +38,7 @@ Giving insight on how to reduce the risk from potential social engineering attac
 
 You will learn how to gather information on your target, crafting phishing emails, and a variety of other techniques used.
 
-Please bring a laptop if you wish to get involved with the information gathering, no tools required these will be shared as part of the workshop.
+Please bring a laptop if you wish to get involved with the information gathering, no tools required - these will be shared as part of the workshop.
 
 {% include speakers-takeaways.html %}
 
