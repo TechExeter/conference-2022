@@ -12,8 +12,8 @@ type: talk
 
 image: /assets/images/speakers/promo-caitlin-gould.png
 headshot: /assets/images/speakers/caitlin-gould.jpg
-# track: "tba"
-# timeslot: "tba"
+track: "2"
+timeslot: "12.30"
 
 level: 3
 # 1 = No prior knowledge / entry-level

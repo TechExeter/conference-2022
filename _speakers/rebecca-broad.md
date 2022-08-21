@@ -11,8 +11,8 @@ type: talk
 # image: /assets/images/speakers/promo/promo-not-available-yet.png
 image: /assets/images/speakers/promo-rebecca-broad.png
 headshot: /assets/images/speakers/rebecca-broad.jpg
-# track: "tba"
-# timeslot: "tba"
+track: "2"
+timeslot: "14.00"
 
 level: 1
 # 1 = No prior knowledge / entry-level

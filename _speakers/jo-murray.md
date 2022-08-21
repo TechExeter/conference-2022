@@ -12,8 +12,8 @@ type: talk
 
 image: /assets/images/speakers/promo-jo-murray.png
 headshot: /assets/images/speakers/jo-murray.jpg
-# track: "tba"
-# timeslot: "tba"
+track: "1"
+timeslot: "12.00"
 
 level: 1
 # 1 = No prior knowledge / entry-level

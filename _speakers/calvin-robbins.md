@@ -11,8 +11,8 @@ type: talk
 
 image: /assets/images/speakers/promo-calvin-robbins.png
 headshot: /assets/images/speakers/calvin-robbins.jpg
-# track: "tba"
-# timeslot: "tba"
+track: "2"
+timeslot: "11.30"
 
 level: 1
 # 1 = No prior knowledge / entry-level

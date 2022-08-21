@@ -12,8 +12,8 @@ type: talk
 
 image: /assets/images/speakers/promo-james-jillians.png
 headshot: /assets/images/speakers/james-jillians.jpg
-# track: "tba"
-# timeslot: "tba"
+track: "2"
+timeslot: "10.15"
 
 level: 1
 # 1 = No prior knowledge / entry-level

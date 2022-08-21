@@ -6,6 +6,9 @@
 - name: speakers
   href: '/speakers.html'
 
+- name: schedule
+  href: '/schedule.html'
+
 - name: sponsorship
   href: '/become-a-sponsor.html'
 

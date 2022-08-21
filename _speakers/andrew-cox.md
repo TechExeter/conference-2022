@@ -11,8 +11,8 @@ type: talk
 
 image: /assets/images/speakers/promo-andrew-cox.png
 headshot: /assets/images/speakers/andrew-cox.jpg
-# track: "tba"
-# timeslot: "tba"
+track: "1"
+timeslot: "14.45"
 
 level: 1
 # 1 = No prior knowledge / entry-level

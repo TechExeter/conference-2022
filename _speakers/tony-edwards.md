@@ -13,8 +13,8 @@ type: talk
 # image: /assets/images/speakers/promo/promo-not-available-yet.png
 image: /assets/images/speakers/promo-tony-edwards.png
 headshot: /assets/images/speakers/tony-edwards.jpg
-# track: "tba"
-# timeslot: "tba"
+track: "2"
+timeslot: "16.00"
 
 level: 1
 # 1 = No prior knowledge / entry-level

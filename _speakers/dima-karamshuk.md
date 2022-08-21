@@ -12,8 +12,8 @@ type: talk
 # image: /assets/images/speakers/promo/promo-not-available-yet.png
 image: /assets/images/speakers/promo-dima-karamshuk.png
 headshot: /assets/images/speakers/dima-karamshuk.jpg
-# track: "tba"
-# timeslot: "tba"
+track: "1"
+timeslot: "14.00"
 
 level: 1
 # 1 = No prior knowledge / entry-level

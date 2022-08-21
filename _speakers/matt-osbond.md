@@ -11,8 +11,8 @@ type: talk
 
 image: /assets/images/speakers/promo-matt-osbond.png
 headshot: /assets/images/speakers/matt-osbond.jpg
-# track: "tba"
-# timeslot: "tba"
+track: "1"
+timeslot: "11.30"
 
 level: 1
 # 1 = No prior knowledge / entry-level

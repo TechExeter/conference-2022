@@ -12,8 +12,8 @@ type: keynote
 # image: /assets/images/speakers/promo/promo-not-available-yet.png
 image: /assets/images/speakers/promo-david-ferguson.png
 headshot: /assets/images/speakers/david-ferguson.jpg
-# track: "tba"
-# timeslot: "tba"
+track: "1"
+timeslot: "09.45"
 
 level: 1
 # 1 = No prior knowledge / entry-level

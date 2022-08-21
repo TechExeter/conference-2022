@@ -83,18 +83,13 @@ layout: default
                 Type of session: <strong>{{ page.type }}</strong>
               </td>
               <td>
-                <!--
                 Track: {{ page.track }}
                   {% if page.track == "1" %}
-                  (MAIN STAGE)
+                  (HENDERSON THEATRE)
                   {% endif %}
                   {% if page.track == "2" %}
-                  (TECH TRACK)
+                  (MATRIX THEATRE)
                   {% endif %}
-                  {% if page.track == "3" %}
-                  (DIGITAL TRACK)
-                  {% endif %}
-                -->
                 </td>
             </tr>
             <tr>
@@ -113,10 +108,8 @@ layout: default
               </td>
               
               <td>
-                <!--
                 Start Time: 
                 <a href="/schedule.html#time_{{ page.timeslot | replace: ".", ""  | replace: ":", "" }}">{{ page.timeslot }}</a>
-                -->
               </td>
             </tr>
             {% if page.co-presenting[0] %} 
