@@ -133,11 +133,11 @@ excerpt: Schedule for the TechExeter / Digital Exeter annual conference on 15th 
   </div>
   <div class="item head t2" style="grid-area: t2head;" id="track_2">
   <h2>Track 2</h2>
-  MATRIX THEATRE
+  BATEMAN THEATRE
   </div>
   <div class="item head tworkshop" style="grid-area: workshophead;" id="track_woskhop">
   <h2>Workshop</h2>
-  XFI CONFERENCE ROOM
+  XFI SEMINAR ROOM
   </div>
 
 </div>

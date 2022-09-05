@@ -9,6 +9,9 @@
 - name: schedule
   href: '/schedule.html'
 
+- name: <i class="fas fa-map" aria-hidden="true"></i> location
+  href: '/location.html'
+
 - name: sponsorship
   href: '/become-a-sponsor.html'
 

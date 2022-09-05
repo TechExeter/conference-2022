@@ -27,10 +27,6 @@
    session-title: "Group Photo"   
    type: "break"
 
- - timeslot: "08.15"
-   track: ""
-   session-title: "08.15"
-   type: "time"
  - timeslot: "08.30"
    track: ""
    session-title: "08.30"
