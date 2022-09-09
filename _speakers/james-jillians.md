@@ -30,11 +30,20 @@ takeaways:
 # TALK DESCRIPTION IS BELOW, FOLLOWED BY BIO
 ---
 
-At Sparx, we’ve recently really scaled up the number of users of our Sparx Maths platform, going from a “start-up” mindset to a “scale-up” mindset. To do this we’ve had to really improve the way our developer community of 20 engineers, all working on the same product, coordinates to deliver rapid continuous improvements. 
+When a company makes the leap from being a start-up to scaling up, how does its community of software engineers cope? What kind of changes are needed to how the team works together, their engineering practices and the technologies they use?
 
-I’ll talk about some of the things we’ve learnt such as how we do scrum, our developer setup and team culture, continuous delivery with GitHub, how we test and deploy changes in the cloud for multiple daily releases, using feature flags for incremental rollouts and AB testing, and how we use BigQuery for big-data analytics. 
+At Sparx we’ve been going through this transition in recent years, and I’m going to talk about how we approached this challenge and what we learnt. The talk will cover:
+<ul>
+<li>how we restructured our teams with scrum</li>
+<li>moving our platform onto the Google cloud</li>
+<li>changing to a microservices architecture with Go</li>
+<li>Continuous delivery, with multiple daily releases and Launch Darkly feature flags</li>
+<li>our developer setup and team culture</li>
+<li>how we grew leadership skills by improving engineers’ career development</li>
+<li>our approach for gathering bulk data about our product for product research, using Google Big Query</li>
+</ul>
 
-The talk should be suitable for a broad audience, rather than having a lot of technical detail.We are still learning how to do this well, and I’m hoping the talk might get feedback about how other local software teams tackle these kinds of problems and get ideas of new techniques we can try.
+The talk is suitable for a broad audience - there’s a range of topics from management to tech, so something for everyone!
 
 {% include speakers-takeaways.html %}
 
