@@ -1,19 +1,19 @@
 ---
-published: false
+published: true
 name: Lyssa-Fêe Crump
 pronoun: She/Her
 title: Founder of Kraken Marketing
 company: Kraken Marketing
 companyLogo: /assets/images/speakers/kraken.png
-session-title: Badass branding will help you create a killer community
+session-title: Badass branding will help you create an awesome community
 session-length: 45 mins
 type: talk
 # talk, workshop, other
 
 # image: /assets/images/speakers/promo/promo-not-available-yet.png
 headshot: /assets/images/speakers/lyssa-fee-crump.jpg
-# track: "tba"
-# timeslot: "tba"
+track: "2"
+timeslot: "14.45"
 
 level: 1
 # 1 = No prior knowledge / entry-level
